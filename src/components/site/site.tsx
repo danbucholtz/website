@@ -8,8 +8,14 @@ import { Component } from '@stencil/core';
 export class Site {
 
   render() {
-    return (
-      <db-header></db-header>
-    );
+    return ([
+      <div class="site">
+        <db-header></db-header>
+        <div class="content-container">
+          <db-nav></db-nav>
+          <db-content></db-content>
+        </div>
+      </div>
+    ]);
   }
 }

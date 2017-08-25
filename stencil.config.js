@@ -1,13 +1,15 @@
 exports.config = {
-bundles: [
-          { components: ['my-name'] }
-          ],
-collections: [
-              { name: '@stencil/router' }
-              ]
+  bundles: [
+    { components: ['db-site', 'db-header', 'db-nav', 'db-content'] },
+    { components: ['db-about'] }
+
+  ],
+  collections: [
+    { name: '@stencil/router' }
+  ]
 };
 
 exports.devServer = {
-root: 'www',
-watchGlob: '**/**'
+  root: 'www',
+  watchGlob: '**/**'
 }
