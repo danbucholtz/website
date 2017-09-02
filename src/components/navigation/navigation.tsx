@@ -14,10 +14,10 @@ export class Navigation {
       </div>,
       <li class="list">
         <ul>
-        <stencil-route-link router="#router" url="/articles">Articles</stencil-route-link>
+          <stencil-route-link router="#router" url="/">About</stencil-route-link>
         </ul>
         <ul>
-          <stencil-route-link router="#router" url="/">Colophon</stencil-route-link>
+          <stencil-route-link router="#router" url="/articles">Articles</stencil-route-link>
         </ul>
         <ul>
           <stencil-route-link router="#router" url="/projects">Projects</stencil-route-link>

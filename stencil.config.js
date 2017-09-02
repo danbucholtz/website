@@ -1,7 +1,6 @@
 exports.config = {
   bundles: [
-    { components: ['db-site', 'db-header', 'db-nav', 'db-content'] },
-    { components: ['db-about'] }
+    { components: ['db-site', 'db-header', 'db-nav', 'db-content', 'db-about', 'db-articles', 'db-projects'] },
 
   ],
   collections: [

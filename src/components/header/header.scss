@@ -25,6 +25,7 @@ db-header {
   .img-container {
     height: 50px;
     width: 50px;
+    min-width: 50px;
 
     img {
       max-width: 100%;
@@ -78,7 +79,7 @@ db-header {
     }
 
     .subtitle {
-      font-size: 11px;
+      font-size: 12px;
       letter-spacing: 2px;
       color: #EEE;
     }
